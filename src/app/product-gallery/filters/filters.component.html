@@ -1,0 +1,32 @@
+<div class="search-container">
+  <input
+    type="text"
+    id="search-input"
+    placeholder="Buscar..."
+    class="search-input"
+    (input)="onSearch($event)"
+  />
+</div>
+<div class="filter-options">
+  <label>
+    <input type="checkbox" value="vaquero" (change)="onFilterChange($event)" />
+    Pantalones
+  </label>
+  <label>
+    <input type="checkbox" value="camiseta" (change)="onFilterChange($event)" />
+    Camisetas
+  </label>
+</div>
+
+<div class="container">
+  @for (product of filteredProducts; track $index) {
+  <div class="card">
+    <img [src]="product.imagen" class="product" />
+    <div class="cardescription">
+      <p class="precio">$MXN {{ product.precio }}</p>
+      <p class="description">{{ product.nombre }}</p>
+      <p>{{ product.descripcion }}</p>
+    </div>
+  </div>
+  }
+</div>

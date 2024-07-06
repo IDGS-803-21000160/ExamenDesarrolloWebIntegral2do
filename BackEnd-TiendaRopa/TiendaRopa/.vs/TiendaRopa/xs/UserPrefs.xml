@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{7E093A4D-E551-4687-878F-9389132AC83D}|http">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TiendaRopa/Controllers/RopasController.cs">
+    <Files>
+      <File FileName="../TareasAPI_903/TareasAPI_903/Models/Bdtareas903Context.cs" />
+      <File FileName="TiendaRopa/Models/Ropa.cs" />
+      <File FileName="TiendaRopa/Controllers/RopasController.cs" Line="34" Column="1" />
+      <File FileName="TiendaRopa/appsettings.json" />
+      <File FileName="TiendaRopa/Program.cs" />
+      <File FileName="TiendaRopa/appsettings.Development.json" />
+      <File FileName="TiendaRopa/Models/TiendaRopaContext.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TiendaRopa" expanded="True">
+            <Node name="TiendaRopa" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="RopasController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TiendaRopa PreferredExecutionTarget="/Applications/Firefox.app" />
+</Properties>

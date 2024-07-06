@@ -1,0 +1,85 @@
+.banner {
+  background-color: black;
+  width: 97%;
+  height: 300px;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.title {
+  color: aliceblue;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 90px;
+}
+
+.titleYear {
+  margin-left: 30px;
+}
+
+.bennrTitle {
+  padding: 20px;
+  display: flex;
+}
+
+.imgBanner {
+  width: 50px;
+  height: 50px;
+}
+
+.year {
+  color: aliceblue;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 274px;
+}
+.bannerLog {
+  width: 600px;
+  height: 300px;
+}
+
+.imgLogBanner {
+  padding-top: 15px;
+}
+
+.someProductos {
+  margin-left: 20px;
+  display: flex;
+  padding-top: 20px;
+}
+.product {
+  width: 250px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px #00000014;
+  display: flex;
+  flex-direction: column;
+  height: 29rem;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+  white-space: normal;
+  width: 16rem;
+  margin: 10px;
+}
+
+.cardescription {
+  padding-left: 22px;
+}
+.precio {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.description {
+  font-family: "Exo 2", sans-serif;
+}
